@@ -47,7 +47,7 @@ function handleLogout()
             <div className="profile-container">
                 <header>
                     <img src={LogoImg} alt = "Be the Hero"/>
-                     <span>Bem Vinda, {OngName}</span>
+                     <span>Bem Vindo, {OngName}</span>
                     <Link className="button" to="/incidents/new">Cadastrar Novo Caso</Link>
                     <button onClick={handleLogout}type="button">
                     <FiPower size={18} color="#E02041"/>
